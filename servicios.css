@@ -1,0 +1,109 @@
+body{
+    background-image: url(imagenes/f2.jpg);
+	margin:0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1.2rem;
+	line-height: 1.4em;
+}
+img{
+    height: 95px;
+    width:250px;
+    float: left;
+}
+p
+{
+	margin-bottom: 1.6em;
+}
+.container
+{
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.header
+{
+background: rgb(85, 53, 5);
+color:white;
+font-family: "Segoe script";
+
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+}
+
+.header a
+{
+	color: white;
+	text-decoration: none;
+}
+.logo-nav-container
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+
+.navigation ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+.navigation ul li{
+	display: inline-block;
+}
+
+.navigation ul li a{
+	display: block;
+	padding: 0.5rem 1rem;
+	transition: all 0.4s linear;
+	border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+	background-color:#F9F69F;
+	color: #252402;
+}
+
+.main
+{
+	padding-top: 12rem;
+}
+.footer
+{
+	background: #f2f2f2;
+	padding: 4rem 0;
+	text-align: center;
+	margin-top: 6rem;
+}
+
+@media only screen and (max-width:767px)
+{
+	.nav
+	{
+		width: 100%;
+		margin: 1rem;
+	}
+	.nav ul li{
+		display: block;
+	}
+
+	.nav ul li a{
+		display: block;
+		padding: 0.5rem 0;
+		transition: all 0.4s linear;
+		border-radius: 5px;
+	}
+
+	.nav ul li a:hover{
+		background-color:#F9F69F;
+	color: #252402;
+	}
+	
+	
+}
